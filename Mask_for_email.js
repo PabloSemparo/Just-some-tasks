@@ -1,3 +1,5 @@
+const email = "myEmail@email.com";
+
 function maskEmail(email) {
   const atIndex = email.indexOf("@");
 
@@ -11,3 +13,5 @@ function maskEmail(email) {
 
   return masked + domain;
 }
+
+console.log(maskEmail(email));
